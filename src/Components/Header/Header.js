@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Link, Outlet, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 
 import './Header.css';
-import Home from '../Pages/Home/Home';
 
 const Header = (() => {
 
@@ -19,6 +18,7 @@ const Header = (() => {
                         <li class="crumb nav--itens Text"><a href="/home">Home</a></li>
                         <li class="crumb nav--itens Text"><a href="/about">About</a></li>
                         <li class="crumb nav--itens Text"><a href="/contact">Contact</a></li>
+                        <li class="crumb nav--itens Text"><a href="/Services">Services</a></li>
                     </ol>
                 </nav>
                 </Router>
